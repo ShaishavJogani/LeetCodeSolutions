@@ -2,6 +2,13 @@ package problemset;
 
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author Shaishav Jogani <br />
+ *
+ * Created on Aug 10, 2017
+ *
+ */
 public class _002AddTwoNumbers {
 	
 	 // Definition for singly-linked list.

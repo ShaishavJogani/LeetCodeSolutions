@@ -3,6 +3,13 @@ package problemset;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 
+ * @author Shaishav Jogani 
+ * <br/>
+ * Created on Aug 10, 2017
+ *
+ */
 public class _001TwoSum {
 
 	public class Solution {
