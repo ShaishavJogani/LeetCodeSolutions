@@ -10,6 +10,7 @@ package problemset;
  *
  */
 public class _003LongestSubstring {
+	
 	public class Solution {
 	    public int lengthOfLongestSubstring(String str) {
 	        int n = str.length();
@@ -19,6 +20,10 @@ public class _003LongestSubstring {
 	        int i;
 	        int visited[] = new int[256];
 	         
+	        /* Empty String */
+	        if(n==0)
+	            return 0;
+	        
 	        /* Initialize the visited array as -1, -1 is 
 	         used to indicate that character has not been 
 	         visited yet. */
@@ -70,5 +75,6 @@ public class _003LongestSubstring {
 	        return max_len;
 	    }
 	}
-
+	
+	
 }
